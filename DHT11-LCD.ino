@@ -29,6 +29,7 @@ void loop(){
   lcd.setCursor(0, 0);
   lcd.print("Temp: ");
   lcd.print(fahrenheit);
+  lcd.print("F");
 
   // Humidity output on LCD.
   lcd.setCursor(0, 1);
